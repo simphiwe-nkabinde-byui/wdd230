@@ -1,0 +1,62 @@
+body {
+    width: 26rem;
+    padding: 0 1rem;
+    margin: 2rem auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Header */
+header {
+    background: #9c27b0;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0px 0 20px 0px #36363687;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    color: white;
+}
+header img {
+    border-radius: 3px;
+    box-shadow: 0px 0 20px 0px #36363687;
+}
+header h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Main */
+main h2 {
+    margin-bottom: .5rem;
+}
+main {
+    color: rgb(45, 45, 45);
+    padding: 0 .7rem;
+}
+main hr {
+    margin: 0;
+}
+main ul {
+    font-family: 'Courier New', Courier, monospace;
+}
+main ul li {
+    margin-bottom: .5rem;
+}
+main p {
+    font-style: italic;
+    margin-top: 0;
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background: #9c27b0;
+    border-radius: 5px;
+    padding: .5rem;
+    text-align: center;
+    box-shadow: 0px 0 20px 0px #36363687;
+}
+footer p:nth-child(2) {
+    color: yellow;
+}
