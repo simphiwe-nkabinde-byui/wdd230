@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+header {
+    background: #ffc107;
+    color: #202020;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #00000036;
+}
+
+header span {
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+nav {
+    background: #202020;
+    color: #fff;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: .6rem 0;
+}
+
+nav a.active {
+    color: #E91E63;
+}
+
+nav a:hover {
+    background: #E91E63;
+    color: #fff;
+}
+
+main {
+    padding: 1rem 10%;
+    display: grid;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 1.3rem;
+    padding-bottom: .4rem;
+    border-bottom: 1px solid #676767;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 1px solid #565656;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.card h2 {
+    background: #ffc107;
+    margin: 0;
+    text-align: center;
+    padding: .3rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding-bottom: .5rem;
+}
+
+.card p {
+    padding: 0 40px;
+}
+
+footer {
+    text-align: center;
+    background: #202020;
+    color: #fff;
+    padding: 1rem 10%;
+}
