@@ -4,6 +4,10 @@ body {
     font-weight: 100;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background: #ffc107;
     color: #202020;
@@ -32,7 +36,6 @@ nav {
 
 nav a {
     display: block;
-    text-decoration: none;
     color: #fff;
     padding: .6rem 0;
 }

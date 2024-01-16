@@ -1,0 +1,9 @@
+@media screen and (min-width: 500px) {
+    .color-palette {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .color-palette li {
+        width: 100%;
+    }
+}
